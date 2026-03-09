@@ -1,0 +1,9 @@
+{
+	"name": "SpotifyProj1-DataFactory",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "33481f1a-401d-4bd4-9ccc-aa2adecb2052",
+		"tenantId": "e886cda4-3d48-4476-aed3-e3898a896a3a"
+	}
+}
