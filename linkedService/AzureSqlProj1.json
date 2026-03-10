@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlProj1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "spotifyproj1-sqlserver.database.windows.net",
+			"database": "adminraman",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "CloudSAfa229c13",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDkxMjg0MzcxLTQyQjgtNERGNy1BNDI1LUZCNjhEMkJGREZFNl8wMTFmNjMyMi0zN2Y2LTQxZTMtOTg4Mi0yZjA4MjYyNTE0MzIiDQp9"
+		}
+	}
+}
