@@ -1,1 +1,0 @@
-# spotify_azure_proj1
