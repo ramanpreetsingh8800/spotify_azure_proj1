@@ -111,16 +111,6 @@ Trigger manually with these parameters:
 
 Trigger with no parameters — the `input_loop` default value covers all five tables. Override `input_loop` if you need to ingest a subset.
 
----
-
-## Security Notes
-
-> ⚠️ Credentials in linked service JSON files are ADF-encrypted (`encryptedCredential`). Do **not** commit plaintext connection strings or passwords.
->
-> ⚠️ The Logic App webhook URL in `LoopIncrementalIngestion` contains a signature token. If this repo is public, rotate the Logic App SAS key immediately and consider storing the URL in ADF's Key Vault-linked parameter store instead.
-
----
-
 ## Potential Improvements
 
 - Enable **parallel ForEach** (`isSequential: false`) to ingest all tables concurrently once volume justifies it.
